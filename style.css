@@ -1,0 +1,62 @@
+*{box-sizing:border-box}html,body{width:100%;height:100%;margin:0;padding:0}body{overflow:hidden;background:#03060c;color:#f4f7fb;font-family:Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%}.g2all-page,.cache-page{position:relative;min-height:100vh;background:#050914;background-image:radial-gradient(ellipse at 50% 30%,#17305c 0,#0b1830 31%,#050914 62%,#02040a 100%)}.g2all-page:before,.cache-page:before{content:"";position:absolute;left:0;right:0;top:0;height:2px;background:#d8ae43;opacity:.9}.g2all-page:after,.cache-page:after{content:"";position:absolute;left:10%;right:10%;bottom:-145px;height:300px;pointer-events:none;background:radial-gradient(ellipse at center,rgba(220,174,58,.16) 0,rgba(220,174,58,.04) 38%,transparent 70%)}.g2all-center{position:absolute;z-index:2;left:50%;top:50%;width:900px;max-width:90%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);text-align:center}.g2all-badge{display:inline-block;padding:9px 19px;border:1px solid #b99134;border-radius:20px;color:#f2c95e;background:#080f1d;font-size:15px;font-weight:bold;letter-spacing:2.2px}.g2all-title{margin:25px 0 9px;font-size:46px;line-height:1.08;font-weight:bold;letter-spacing:-1px;text-shadow:0 4px 18px #000}.gold{color:#f0c34f}.g2all-sub{margin:0 auto 27px;color:#94a8c6;font-size:15px;font-weight:bold;letter-spacing:1.1px}.status-card{width:700px;max-width:100%;margin:0 auto;padding:21px 27px 20px;border:1px solid #263b60;border-radius:13px;background:#08111f;box-shadow:0 18px 50px rgba(0,0,0,.38)}.status-label{margin-bottom:12px;color:#738aa9;font-size:11px;font-weight:bold;letter-spacing:1.7px}.dot{display:inline-block;width:7px;height:7px;margin-right:7px;border-radius:50%;background:#f0c34f;box-shadow:0 0 8px rgba(240,195,79,.55)}.g2all-msg{margin:0;color:#f3f7fc;font-size:22px;line-height:1.42;font-weight:bold}.divider{height:1px;margin:17px 0 13px;background:#1b2b46}.meta{color:#7790b2;font-size:14px}.g2all-footer{margin-top:18px;color:#506784;font-size:11px;letter-spacing:.7px}.cache-wrap{position:absolute;z-index:2;left:50%;top:50%;width:760px;max-width:90%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);text-align:center}.cache-title{margin:22px 0 14px;font-size:38px}.cache-msg{margin:0;font-size:23px;line-height:1.45}.progress-shell{height:7px;margin:22px auto 0;overflow:hidden;border-radius:7px;background:#14213a}.progress-bar{height:100%;width:4%;border-radius:7px;background:#f0c34f}.cache-page .status-card{padding-top:25px}.cache-page .meta{margin-top:14px}@media(max-width:900px){.g2all-title{font-size:36px}.g2all-msg{font-size:19px}.status-card{padding:19px 20px}.cache-title{font-size:31px}.cache-msg{font-size:20px}}
+/* ZoLDiK Lite V3 - PS4 friendly visual refresh */
+body{background:#02050b}
+.g2all-page,.cache-page{background-color:#040913;background-image:radial-gradient(ellipse at 50% 26%,#244b83 0,#10264a 28%,#071329 54%,#030812 78%,#010309 100%)}
+.g2all-page:before,.cache-page:before{height:3px;background:#e8bb4a}
+.g2all-page:after,.cache-page:after{left:5%;right:5%;bottom:-130px;height:280px;background:radial-gradient(ellipse at center,rgba(232,187,74,.20) 0,rgba(232,187,74,.05) 42%,transparent 72%)}
+.g2all-center{width:1040px;max-width:92%}
+.g2all-badge{padding:12px 24px;border-radius:24px;font-size:18px;letter-spacing:2.5px}
+.g2all-title{margin:28px 0 12px;font-size:58px;line-height:1.08;letter-spacing:-1px}
+.g2all-sub{margin-bottom:31px;font-size:18px;letter-spacing:1.5px;color:#b0c2dd}
+.status-card{width:790px;padding:26px 32px 24px;border-color:#31507d;border-radius:15px;background:rgba(5,14,29,.94);box-shadow:0 20px 45px rgba(0,0,0,.34)}
+.status-label{font-size:14px;letter-spacing:1.9px;color:#8da5c7}
+.dot{width:9px;height:9px}
+.g2all-msg{font-size:27px;line-height:1.4}
+.meta{font-size:17px;color:#91a9ca}
+.g2all-footer{margin-top:22px;font-size:14px;color:#7189a9}
+.cache-wrap{width:860px}.cache-title{font-size:45px}.cache-msg{font-size:27px}.progress-shell{height:9px}
+@media(max-width:900px){.g2all-title{font-size:46px}.g2all-badge{font-size:16px}.g2all-sub{font-size:16px}.g2all-msg{font-size:23px}.meta{font-size:15px}.g2all-footer{font-size:12px}.status-card{padding:23px 24px}.cache-title{font-size:38px}.cache-msg{font-size:23px}}
+/* ZoLDiK Calm PS4 Edition - no gold top line, quieter PlayStation-inspired background */
+.g2all-page,.cache-page{
+  background-color:#020817;
+  background-image:
+    radial-gradient(ellipse at 50% 34%,rgba(25,82,148,.42) 0,rgba(8,35,76,.30) 34%,rgba(2,12,31,.12) 63%,rgba(1,5,16,0) 82%),
+    linear-gradient(180deg,#06152f 0%,#031027 45%,#010713 100%);
+}
+.g2all-page:before,.cache-page:before{display:none}
+.g2all-page:after,.cache-page:after{
+  left:12%;right:12%;bottom:-165px;height:330px;
+  background:radial-gradient(ellipse at center,rgba(29,104,184,.12) 0,rgba(11,55,111,.05) 42%,transparent 72%);
+}
+.g2all-badge{border-color:#315f98;color:#dcecff;background:#07152a}
+.gold{color:#72b9ff}
+.dot{background:#52a8ff;box-shadow:0 0 8px rgba(82,168,255,.5)}
+.progress-bar{background:#52a8ff}
+.status-card{border-color:#244a78;background:rgba(3,13,30,.95)}
+
+/* GitHub Lite refresh - PS4/PS5 inspired, no external assets */
+.g2all-page,.cache-page{background-color:#020817;background-image:radial-gradient(circle at 18% 18%,rgba(0,112,209,.22),transparent 34%),radial-gradient(circle at 82% 25%,rgba(70,90,255,.17),transparent 32%),linear-gradient(135deg,#001b3d 0%,#061b43 42%,#101a48 70%,#020817 100%)}
+.g2all-page:after,.cache-page:after{bottom:-150px;background:radial-gradient(ellipse at center,rgba(0,140,255,.17),rgba(72,65,255,.06) 45%,transparent 72%)}
+.g2all-center{width:1100px;max-width:94%}
+.hero-logo{display:block;width:390px;max-width:48vw;height:auto;margin:0 auto 4px;filter:drop-shadow(0 10px 22px rgba(0,0,0,.5))}
+.g2all-title{margin:4px 0 9px;font-size:60px}.gold{color:#62b9ff}.g2all-sub{margin-bottom:22px}
+.status-card{width:820px;max-width:100%;padding:24px 32px;border-color:#2766a5;background:rgba(2,11,29,.93);box-shadow:0 16px 38px rgba(0,0,0,.32)}
+@media(max-height:760px){.hero-logo{width:285px}.g2all-title{font-size:48px}.g2all-sub{margin-bottom:14px}.status-card{padding:18px 25px}.g2all-footer{margin-top:12px}}
+@media(max-width:900px){.hero-logo{width:320px;max-width:70vw}.g2all-title{font-size:46px}}
+
+/* Unified branding across every host page */
+.cache-wrap{width:960px;max-width:94%}
+.cache-logo{display:block;width:330px;max-width:44vw;height:auto;margin:0 auto 2px;filter:drop-shadow(0 10px 22px rgba(0,0,0,.5))}
+.cache-brand{margin:0 0 6px;font-size:45px;line-height:1.08;text-shadow:0 4px 18px #000}
+.cache-title{margin:8px 0 14px;font-size:30px;color:#dcecff}
+@media(max-height:760px){.cache-logo{width:235px}.cache-brand{font-size:36px}.cache-title{font-size:25px}.cache-page .status-card{padding:18px 24px}}
+@media(max-width:900px){.cache-logo{width:280px;max-width:65vw}.cache-brand{font-size:37px}.cache-title{font-size:26px}}
+/* Keep every host/cache page visually identical in scale to the main page */
+.cache-wrap{width:900px;max-width:90%}
+.cache-logo{display:block;width:390px;max-width:48vw;height:auto;margin:0 auto 4px;filter:drop-shadow(0 10px 22px rgba(0,0,0,.5))}
+.cache-brand{margin:4px 0 9px;font-size:60px;line-height:1.08;font-weight:bold;letter-spacing:-1px;text-shadow:0 4px 18px #000}
+.cache-title{margin:0 auto 22px;font-size:15px;line-height:1.3;color:#94a8c6;font-weight:bold;letter-spacing:1.1px;text-transform:uppercase}
+.cache-msg{margin:0;color:#f3f7fc;font-size:22px;line-height:1.42;font-weight:bold}
+.cache-page .status-card{width:700px;max-width:100%;padding:21px 27px 20px}
+@media(max-height:760px){.cache-logo{width:285px}.cache-brand{font-size:48px}.cache-title{margin-bottom:14px}.cache-page .status-card{padding:18px 25px}}
+@media(max-width:900px){.cache-logo{width:320px;max-width:70vw}.cache-brand{font-size:46px}.cache-title{font-size:15px}.cache-msg{font-size:19px}}

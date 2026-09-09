@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html manifest="slopkit.manifest">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ZoLDiK PS4 Host - Offline Cache</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="cache-page">
+<script>
+history.replaceState(null,null,'index.html');var histlength=history.length;history.go(-histlength);
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Installing Offline Cache: " + Percent + "%";var b=document.getElementById("bar");if(b)b.style.width=Percent+"%";}
+function DisplayCacheProgress(){window.msgs.innerHTML="Cache Installed Successfully ✔";setTimeout(function(){window.msgs.innerHTML="Now Close And Re-Open Your Browser ...";},1500);}
+window.applicationCache.addEventListener("progress",DLProgress,false);
+window.applicationCache.oncached=function(e){DisplayCacheProgress();};
+window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+window.applicationCache.onerror=function(e){window.msgs.innerHTML="Error Installing Cache! - Clear and Re-Open Your Browser ...";};
+</script>
+<div class="cache-wrap">
+  <img class="cache-logo" src="ps4-jailbreak-logo.png" alt="PS4 Jailbreak">
+  <h1 class="cache-brand">Preparing <span class="gold">Offline Cache</span></h1>
+  <h2 class="cache-title"><span class="gold">................</span></h2>
+  <div class="status-card">
+    <h1 id="msgs" class="cache-msg">Starting Cache Installation...</h1>
+    <div class="progress-shell"><div class="progress-bar" id="bar"></div></div>
+    <div class="meta">Keep this page open until installation is complete.</div>
+  </div>
+</div>
+</body>
+</html>
