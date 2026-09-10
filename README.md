@@ -1,7 +1,6 @@
-# ZoLDiK PS4 Host - Lite V3
-Universal static build for GitHub Pages and Netlify.
+# ZoLDiK PS4 Host - V3.1
 
-- Upload the CONTENTS of this folder to the site root.
-- GitHub Pages: `.nojekyll` is included.
-- Netlify: `_headers` is included.
-- Exploit/GoldHEN files are kept unchanged; visual/CSS hosting layer only was refreshed.
+- Fast.
+- Clean.
+- Ofline.
+- From FW 7.00 To 13.00.
